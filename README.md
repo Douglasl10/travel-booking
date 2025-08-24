@@ -1,12 +1,73 @@
-# React + Vite
+# ✈️ Travel Booking
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um site simples e funcional de **agendamento de voos**, desenvolvido em **React** com **styled-components**.  
+O projeto possui uma tela inicial com promoções, busca de voos, agendamento e cancelamento de reservas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Demonstração
 
-## Expanding the ESLint configuration
+<img src="https://raw.githubusercontent.com/Douglasl10/travel-booking/refs/heads/main/src/assets/Captura%20de%20tela%202025-08-24%20172555.png">
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Funcionalidades
+
+- Página inicial com **promoções de voos**.
+- **Busca dinâmica** de voos por origem, destino e data.
+- **Agendamento de voos** com salvamento no `localStorage`.
+- **Listagem de reservas** em "Minhas Reservas".
+- **Cancelamento de reservas** com confirmação.
+- Estilização feita com **styled-components**.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/) (para ambiente de desenvolvimento rápido)
+- [styled-components](https://styled-components.com/)
+
+---
+
+## 📂 Estrutura do projeto
+
+```bash
+src/
+ ├── components/       # Componentes reutilizáveis (ex: FlightCard)
+ ├── pages/            # Páginas principais (Home, Search, Booking)
+ ├── utils/            # Funções utilitárias (ex: mockFlights.js)
+ ├── App.jsx           # Rotas principais
+ ├── main.jsx          # Ponto de entrada do React
+
+⚡ Como rodar o projeto
+
+Clone o repositório:
+git clone https://github.com/seu-usuario/travel-booking.git
+Acesse a pasta do projeto:
+cd travel-booking
+Instale as dependências:
+
+npm install
+
+Inicie o servidor de desenvolvimento:
+
+npm run dev
+
+Abra no navegador:
+
+http://localhost:5173
+
+## 📌 Melhorias futuras
+
+Conectar a uma API real de voos.
+
+Criar sistema de login e cadastro de usuários.
+
+Adicionar responsividade completa para dispositivos móveis.
+
+Implementar validação avançada de formulários.
+
+## 👨‍💻 Autor
+
+Desenvolvido por Dougla Oliveira
+
